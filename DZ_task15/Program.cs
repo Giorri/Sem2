@@ -5,7 +5,7 @@
 Console.WriteLine("Задайте день недели, введя соответсвующую цифру: ");
 int day = int.Parse(Console.ReadLine());
 
-if ((day > 7) || (day == 0))
+if ((day > 7) || (day == 0) || (day < 0))
 {
     Console.WriteLine("День недели введен не корректно");
 } 
